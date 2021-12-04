@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -303,6 +303,7 @@
         </div>
       </section>
     </main>
+    <!--! FOOTER  -->
     <footer class="footer">
       <div class="container footer-content">
         <div class="footer-left">
@@ -350,6 +351,31 @@
             </li>
           </ul>
         </div>
+        <form
+          class="footer-form"
+          autocomplete="off"
+          method="POST"
+          action="javascript:void(0);"
+        >
+          <label for="email" class="footer-form-label"
+            >ПОДПИШИТЕСЬ НА РАССЫЛКУ
+          </label>
+          <div class="footer-form-content">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="E-mail"
+              class="footer-form-imput"
+            />
+            <button type="submit" class="footer-form-button">
+              <p class="footer-form-button-caption">Подписаться</p>
+              <svg class="footer-form-button-icon" width="24" height="24">
+                <use href="./images/icons.svg#send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
   </body>
