@@ -492,8 +492,9 @@ body {
   fill: #ffffff;
 }
 .footer-form {
-  margin-left: 69px;
+  margin-left: auto;
   padding: 12px;
+  padding-right: 0;
 }
 
 .footer-form-label {
@@ -825,6 +826,7 @@ body {
 }
 .modal-link {
   text-decoration: underline;
+  text-decoration-skip-ink: none;
   margin-left: 4px;
 }
 .modal-button {
